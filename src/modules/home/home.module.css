@@ -1,0 +1,30 @@
+.div2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.div2H3{
+    width: 50%;
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #464646
+}
+.div2Img{
+    width: 50%;
+}
+@media screen and (max-width: 780px) {
+    .div2{
+        flex-direction: column;
+    }
+    .div2H3{
+        width: 80%;
+        margin: 20px auto 0px auto;
+        text-align: center;
+        font-size:  25px;
+    }
+    .div2Img{
+        width: 100%;
+        
+    }
+}

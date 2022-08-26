@@ -1,0 +1,30 @@
+.pages{
+    display: flex;
+    justify-content: flex-end;
+}
+.pageLi{
+    margin-right: 30px;
+    background-color: "red";
+    
+}
+.pageA{
+    border-bottom: 3.5px solid #fff;
+    cursor: pointer;
+}
+.pageA:hover{
+    border-bottom-color: #f8d700 ;
+    transition: all 0.4s;
+}
+.qoutebtn{
+    width: 150px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: #f8d700;
+    border: none;
+    color: #000
+}
+.qoutebtn:hover{
+    color: #fff;
+    background-color: #03e7c6;
+    transition: all 0.3s;
+}
