@@ -13,6 +13,176 @@
 .div2Img{
     width: 50%;
 }
+.div3{
+    width: 100%;
+    display: flex;
+}
+.div3 > div{
+    width: 50%;
+}
+.div3TextDiv{
+    background-color: #498cf3;
+    padding: 40px 15px;
+}
+.div3TextDiv > h3{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #fff
+}
+.div3TextDiv > div{
+    margin-top: 20px;
+}
+.div3TextDiv > div > p{
+    font-size: 17px;
+    color: #fff;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.div3BtnDiv{
+    background-image: url("../../assits/images/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    padding: 10px;
+}
+.div3LongBtn{
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+}
+.div3LongBtn:hover{
+    background-color: #e97062;
+    transition: all 0.3s;
+}
+.div3LongBtn > p{
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.div3ShortBtnDiv{
+    width: 100%;
+    display: flex;
+
+}
+.div3ShortBtn{
+    width: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+.div3ShortBtn:hover{
+    background-color: #e97062;
+    transition: all 0.3s;
+}
+.div3ShortBtn > p{
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.div3imgDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 22px 0px
+}
+.div3imgDiv > img{
+    margin: 0px auto;
+}
+.div4{
+    width: 100%;
+    display: flex;
+}
+.div4 > img{
+    width: 25%;
+    height: 350px;
+}
+.div4 > div{
+    width: 75%;
+    padding: 0px 30px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div4firstDiv{
+    width: 58%;
+}
+.div4firstDiv > h3{
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff
+}
+.div4firstDiv > p{
+    font-size: 17px;
+    color: #fff;
+    text-align: justify;
+    margin-top: 20px;
+}
+.div4secondDiv{
+    width: 18%;
+}
+.div4secondDiv > div{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.div4secondDiv > div > span{
+    color: #fff
+}
+.div4secondDiv > div > p{
+    font-size: 17px;
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 5px;
+}
+.portfolioHeading{
+    font-size: 34px;
+    font-weight: bold;
+    color: #464646;
+    text-align: center;
+    margin: 40px 0px
+}
+.div5{
+    width: 100%;
+}
+.div5 > div{
+    width: 100%;
+    display: flex;
+}
+.div5 > div > img{
+    width: 33.3%;
+    height: 250px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.div5 > div > img:hover{
+    transform: scale(1.01);
+    opacity: 1;
+    
+    border-radius: 5px;
+}
+.portfolioBtn{
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    font-size: 17;
+    color: #fff;
+    background-color: #02dad1;
+    border-radius: 5px;
+    margin: 40px 0px;
+}
+.portfolioBtnDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 @media screen and (max-width: 780px) {
     .div2{
         flex-direction: column;
@@ -26,5 +196,59 @@
     .div2Img{
         width: 100%;
         
+    }
+    .div3{
+        flex-direction: column;
+    }
+    .div3 > div{
+        width: 100%;
+    }
+    .div3TextDiv > h3{
+        font-size:  25px;
+    }
+    .div3TextDiv > div > p{
+        font-size:  16px;
+    }
+    .div4{
+        flex-direction: column;
+    }
+    .div4 > img{
+        width: 100%;
+    }
+    .div4 > div{
+        flex-direction: column;
+        width: 100%
+    }
+    .div4secondDiv{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .div4firstDiv{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .div4firstDiv > h3{
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .div4firstDiv > p{
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .div4secondDiv > div > p{
+        font-size: 16px;
+    }
+    .div5 > div{
+        flex-direction: column;
+    }
+    .div5 > div > img{
+        width: 100%;
+    }
+    .portfolioHeading{
+        font-size: 25px;
     }
 }
