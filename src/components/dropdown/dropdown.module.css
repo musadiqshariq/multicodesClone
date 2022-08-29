@@ -1,0 +1,26 @@
+.iconDiv{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: auto;
+}
+.iconDiv > p{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.main{
+    margin-top: 20px;
+    transition: all 0.3s;
+}
+.main > p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

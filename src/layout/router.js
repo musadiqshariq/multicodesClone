@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home } from "../modules";
+import { About, Home } from "../modules";
 
 export const MainRouting = () => {
   return (
@@ -8,6 +8,7 @@ export const MainRouting = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </BrowserRouter>
     </div>

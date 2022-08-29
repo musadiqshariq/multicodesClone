@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+.main > div > div > p{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.main > div > h4{
+    font-size: 24px;
+    font-weight: 650;
+}
+.main > div > div{
+    margin-top: 15px;
+}
+.main > div > div > p:hover{
+    color: #63c1e5
+}
+@media screen and (max-width: 780px) {
+    .main > div{
+        margin-right: 0px;
+        margin-top: 40px;
+    }
+    .main{
+        flex-direction: column;
+    }
+}
